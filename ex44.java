@@ -46,9 +46,9 @@ public class ex44 {
         {
             if(isOperator(x))
             {
+               a = stack.pop(); 
                b = stack.pop();
-               a = stack.pop();
-               z = postfix(a, b, x);
+               z = postfix(b, a, x);
                stack.push(z);                 
             }
             else
