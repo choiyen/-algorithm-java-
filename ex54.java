@@ -15,7 +15,6 @@ public class ex54 {
                  return a[0] - b[0];
              }
         });
-        
         for(int [] arr : point)
         {
             System.out.println(Arrays.toString(arr));
